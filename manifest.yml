@@ -1,0 +1,6 @@
+applications:
+  - name: test-go
+    routes:
+      - route: test-go.mybluemix.net
+    memory: 128M
+    buildpack: go_buildpack
